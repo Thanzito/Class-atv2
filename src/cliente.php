@@ -8,7 +8,7 @@ class Cliente
     public $cidade;
     public $telefone;   
 }
-function__construct($nome, $idade, $endereco, $cidade, $telefone){
+function __construct($nome, $idade, $endereco, $cidade, $telefone){
     $this->nome = $nome;
     $this->idade = $idade;
     $this->endereco = $endereco;
