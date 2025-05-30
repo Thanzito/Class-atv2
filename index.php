@@ -2,7 +2,7 @@
 
 require_once 'src/cliente.php';
 
-$cliente1 = new Cliente("Nathan Cavalcante", 17, "Rua A, 123", "Paraná", "41 98813590");
+$cliente1 = new Cliente("Nathan Cavalcante", 17, "Rua A, 123", "Curitiba", "41 98813590");
 
 $cliente1->exibirDados();
 

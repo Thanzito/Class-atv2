@@ -7,7 +7,9 @@ class Cliente
     public $endereco;
     public $cidade;
     public $telefone;   
-}
+
+//Para otimizar e comprimir o código, define uma ordem para os parâmetros dentro do index
+
 function __construct($nome, $idade, $endereco, $cidade, $telefone){
     $this->nome = $nome;
     $this->idade = $idade;
@@ -54,4 +56,5 @@ function exibirDados() {
     echo "Cidade: {$this->cidade}<br>";
     echo "Telefone: {$this->telefone}<br>";
     echo "=============================<br>";
+}
 }
